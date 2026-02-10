@@ -1,0 +1,26 @@
+{
+  "latestVersion": "1.2.0",
+  "releaseDate": "2025-02-15",
+  "minGameVersion": "154",
+  "downloadUrl": "https://v6.gh-proxy.org/https://github.com/yyhh73144-max/TradingMod-/raw/main/TradingMod1.2.0.jar",
+  "changelog": [
+    {
+      "title": "新内容",
+      "color": "ffd700",
+      "items": [
+        "新增XXX功能",
+        "新增YYY建筑"
+      ]
+    },
+    {
+      "title": "BUG修复",
+      "color": "aaaaaa",
+      "items": [
+        "修复了某个BUG",
+        "优化了性能"
+      ]
+    }
+  ],
+  "forceUpdate": false,
+  "announcement": ""
+}
