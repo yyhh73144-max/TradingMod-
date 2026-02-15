@@ -1,24 +1,70 @@
 {
-  "latestVersion": "1.2.0",
-  "releaseDate": "2025-02-10",
+  "latestVersion": "1.2.5",
+  "releaseDate": "2025-02-15",
   "minGameVersion": "154",
-  "downloadUrl": "https://v6.gh-proxy.org/https://github.com/yyhh73144-max/TradingMod-/blob/main/TradingMod1.1.0.jar",
+  "downloadUrl": "https://v6.gh-proxy.org/https://github.com/yyhh73144-max/TradingMod-/blob/main/TradingMod1.2.5.jar",
   "changelog": [
     {
-      "title": "新内容",
-      "color": "ffd700",
+      "title": "争夺战模式",
+      "color": "ff6b6b",
       "items": [
-        "无详细信息"
+        "全新区域控制竞速玩法",
+        "在争夺战星球上与敌方AI争夺多个战略区域",
+        "通过持续占领区域累积分数，率先达到目标分数获胜",
+        "区域分为T1/T2/T3三个等级，高等级区域分数产出更高",
+        "地图包含丰富地形：河流、矿脉、高地等自然环境"
+      ]
+    },
+    {
+      "title": "争夺战 - AI系统",
+      "color": "ff9f43",
+      "items": [
+        "敌方AI具备完整的战略决策能力",
+        "AI会定期派出波次进攻玩家占领的区域",
+        "AI会主动扩张，向中立区域派遣占领部队",
+        "AI会突袭玩家基地，突袭规模随波次递增",
+        "AI侦察兵会探查未占领区域获取情报",
+        "单位任务锁定机制：正在占领的单位不会被打断重新分配"
+      ]
+    },
+    {
+      "title": "争夺战 - 防御工事",
+      "color": "ffd93d",
+      "items": [
+        "敌方占领区域会自动建造防御炮塔和城墙",
+        "炮塔自动补给弹药系统，定期为炮塔填充最佳弹药",
+        "电力炮塔配套放置RTG发电机/太阳能板供电",
+        "防御设施被摧毁后AI会定期修复补建",
+        "防御等级随区域Tier和波次提升，后期出现高级炮塔"
+      ]
+    },
+    {
+      "title": "争夺战 - 进度系统",
+      "color": "a55eea",
+      "items": [
+        "支持存档保存与恢复，退出后重进可继续游戏",
+        "区域归属、分数、波次等状态完整持久化",
+        "游戏结束后自动清除存档，重进将重新生成战场",
+        "胜利或失败均有详细结算界面展示最终数据"
+      ]
+    },
+    {
+      "title": "辅助面板",
+      "color": "00e5ff",
+      "items": [
+        "辅助面板添加更多功能"
       ]
     },
     {
       "title": "BUG修复",
       "color": "aaaaaa",
       "items": [
-        ""
+        "修复AI炮塔无弹药无法开火的问题",
+        "修复电力炮塔缺少供电导致不工作的问题",
+        "修复防御设施被摧毁后无法重建的问题"
       ]
     }
   ],
   "forceUpdate": false,
-  "announcement": ""
+  "announcement": "1.3.0重大更新：全新争夺战模式上线！在专属星球上与AI展开区域争夺战，体验全新的策略竞速玩法！"
 }
